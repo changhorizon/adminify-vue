@@ -1,58 +1,73 @@
-# Meteorite Admin with Vue
+# Adminify Vue
 
-Meteorite 管理系统前端，提供完整的用户管理、内容管理与仪表盘功能，支持响应式布局和主题切换，适用于企业后台系统演示或快速搭建项目原型。
+🚀 **Adminify Vue** is a Vue 3–based admin dashboard starter project.
+It focuses on a clean structure, basic admin features, and a responsive layout — suitable for demos, experiments, and early-stage admin system development.
 
-## 功能概览
+![License](https://img.shields.io/github/license/changhorizon/adminify-vue)
+![Last Commit](https://img.shields.io/github/last-commit/changhorizon/adminify-vue)
 
-- **用户管理**：新增、编辑、删除用户
-- **内容管理**：新增、编辑、删除文章/内容
-- **仪表盘**：展示用户数、内容数及欢迎信息
-- **响应式布局**：
-  - PC 端：侧边栏折叠
-  - 移动端：Drawer 弹出侧边栏
-- **主题切换**：亮色 / 暗色模式
-- **登录/注销**：用户状态管理（Pinia）
-- **基于 Element Plus 的 UI 组件**
+## ✨ Features
 
-## 技术栈
+> The project is in an early stage. The following features are currently available or partially implemented.
 
-- Vue 3（组合式 API）
-- Element Plus
-- Pinia（状态管理）
-- Vue Router
-- Sass / CSS3
+- Basic dashboard pages
+- User management (basic CRUD)
+- Content management (basic CRUD)
+- Responsive layout (desktop / mobile)
+- Light / Dark theme switching
+- Simple authentication state handling
 
-## 快速开始
+## 🛠 Tech Stack
 
-### 安装依赖
+- **Vue 3** (Composition API)
+- **Element Plus**
+- **Pinia**
+- **Vue Router**
+- **Sass / CSS3**
+
+## 🚀 Getting Started
+
+Install dependencies:
 
 ```sh
 npm install
 ```
 
-### 开发模式（热重载）
+Start development server:
 
 ```sh
 npm run dev
 ```
 
-### 构建生产包
+Build for production:
 
 ```sh
 npm run build
 ```
 
-### 代码规范检查
+Lint the project:
 
 ```sh
 npm run lint
 ```
 
-## 项目亮点
+## 🌱 Project Status
 
-- **组件化开发**：高复用组件，支持 Props、Slots 和事件通信
-- **全局状态管理**：Pinia 响应式数据驱动页面更新
-- **路由控制**：动态路由匹配和菜单高亮处理
-- **响应式界面**：Element Plus + Flexbox + Media Query
-- **UI 体验**：表格、卡片、分页和弹窗组件整合
-- **暗/亮主题**：系统级主题切换，自动适配颜色和背景
+Adminify Vue is under active development.
+The goal of this project is to gradually evolve into a reusable and extensible admin dashboard template.
+
+APIs, features, and structure may change as the project matures.
+
+## 📦 Requirements
+
+- Node.js ≥ 18
+- npm ≥ 9
+
+## 📄 License
+
+This project is open source and released under the **MIT License**.
+
+## 🤝 Contributing
+
+Contributions, issues, and suggestions are welcome.
+If you find this project helpful, consider giving it a ⭐️.

@@ -20,7 +20,7 @@
             />
           </svg>
         </span>
-        <span class="brand-text">Meteorite</span>
+        <span class="brand-text">Adminify</span>
       </div>
     </div>
 
